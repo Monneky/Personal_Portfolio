@@ -1,0 +1,23 @@
+.general .logo {
+    width: 40%;
+    margin-bottom: 5px;
+    padding: 5px;
+    float: left;
+}
+
+.general .links a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+    text-decoration: underline;
+    font-style: normal;
+    color: #fff;
+    float: right;
+}
+
+.general .links a:visited {
+    color: #fff;
+}
