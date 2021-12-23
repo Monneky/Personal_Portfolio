@@ -1,11 +1,16 @@
-.general .logo {
+.barnav .logo {
     width: 40%;
     margin-bottom: 5px;
     padding: 5px;
     float: left;
 }
 
-.general .links a {
+.barnav .links {
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.barnav .links a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 25px;
@@ -15,9 +20,8 @@
     text-decoration: underline;
     font-style: normal;
     color: #fff;
-    float: right;
 }
 
-.general .links a:visited {
+.barnav .links a:visited {
     color: #fff;
 }
