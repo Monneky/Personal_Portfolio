@@ -5,7 +5,7 @@
 }
 
 .barnav .logo {
-    margin-left: 50px;
+    margin-left: 60px;
     width: 40%;
     float: left;
 }
@@ -13,6 +13,7 @@
 .barnav .links {
     width: 50%;
     margin-left: 100px;
+    margin-top: 55px; 
     display: inline-block;
 }
 
