@@ -10,4 +10,6 @@
 
 .barnav .links {
     width: 60%;
+    height: 50px;
+    display: inline-block;
 }
