@@ -1,15 +1,28 @@
 .barnav {
     width: 100%;
+    height: 140px;
     color: #fff;
 }
 
 .barnav .logo {
+    margin-left: 50px;
     width: 40%;
     float: left;
 }
 
 .barnav .links {
-    width: 60%;
-    height: 50px;
+    width: 50%;
+    margin-left: 100px;
     display: inline-block;
+}
+
+.barnav .links a {
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.barnav .links a::after {
+    color: #fff;
 }
