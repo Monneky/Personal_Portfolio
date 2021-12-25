@@ -1,27 +1,13 @@
+.barnav {
+    width: 100%;
+    color: #fff;
+}
+
 .barnav .logo {
     width: 40%;
-    margin-bottom: 5px;
-    padding: 5px;
     float: left;
 }
 
 .barnav .links {
-    margin-top: 35px;
-    margin-left: 15px;
-}
-
-.barnav .links a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    width: 150px;
-    height: 100px;
-    padding: 5px;
-    text-decoration: underline;
-    font-style: normal;
-    color: #fff;
-}
-
-.barnav .links a:visited {
-    color: #fff;
+    width: 60%;
 }
