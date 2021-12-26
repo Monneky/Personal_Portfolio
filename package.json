@@ -4,17 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Monneky/Personal_Portfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cesar Ivann Llamas Macias Macias",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Monneky/Personal_Portfolio/issues"
   },
-  "homepage": "https://github.com/Monneky/Personal_Portfolio#readme"
+  "homepage": "https://github.com/Monneky/Personal_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
