@@ -1,6 +1,6 @@
 .definition-section {
     margin-left: 0px;
-    margin-top: 95px;
+    margin-top: 170px;
     width: 960px;
 }
 
@@ -28,8 +28,13 @@
 }
 
 .definition-section .about-me-link {
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .definition-section .about-me-link a {
@@ -37,4 +42,10 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
 }
