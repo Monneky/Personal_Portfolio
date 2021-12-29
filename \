@@ -30,8 +30,10 @@
         </div>
       </div>
       <div class="about">
-        <img src="../img/lucas-sankey-9R-CH7PR150-unsplash.jpg" alt="Cesar Ivann Llamas Macias">
-        <p class="information">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, deleniti optio repellendus consectetur facere dignissimos debitis maiores maxime molestias molestiae quod, ea, recusandae omnis nulla nisi reprehenderit commodi explicabo placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur reprehenderit labore voluptates aspernatur distinctio, eveniet corporis consequatur, accusantium dolor atque expedita neque voluptatem sed doloremque! Ipsam libero enim assumenda corporisLorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint odit maiores, eaque atque qui tenetur autem incidunt nesciunt commodi dolorem vel, et fugit! Delectus et ipsam facilis iusto quo.</p>
+        <div class="image">
+          <img src="../img/lucas-sankey-9R-CH7PR150-unsplash.jpg" alt="Cesar Ivann Llamas Macias">
+        </div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, deleniti optio repellendus consectetur facere dignissimos debitis maiores maxime molestias molestiae quod, ea, recusandae omnis nulla nisi reprehenderit commodi explicabo placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur reprehenderit labore voluptates aspernatur distinctio, eveniet corporis consequatur, accusantium dolor atque expedita neque voluptatem sed doloremque! Ipsam libero enim assumenda corporis.</p>
       </div>
     <footer>
         <div class="icons">
