@@ -1,5 +1,5 @@
 footer {
-    width: 500px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -40,4 +40,9 @@ footer .github,
 
 .fab {
     font-size: 95px;
+}
+
+.linkedin .fa-linkedin {
+    display: inline-block;
+    color: #fff;
 }
