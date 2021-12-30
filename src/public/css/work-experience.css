@@ -21,33 +21,6 @@
     font-family: 'Montserrat';
 }
 
-.experiencie .languages {
-    margin-top: -20px;
-    padding: 10px;
-    text-align: center;
-}
-
-.experiencie i {
-    font-size: 40px;
-}
-
-.experiencie .fa-html5 {
-    color: red;
-}
-
-.experiencie .fa-css3-alt {
-    color: blue;
-}
-
-.experiencie .fa-js {
-    color: #ffff00;
-}
-
-.experiencie .family-containers {
-    display: inline-block;
-    width: 85px;
-}
-
 .experiencie .dates {
     text-align: center;
 }
