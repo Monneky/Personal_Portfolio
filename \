@@ -77,11 +77,6 @@
     margin-right: auto;
 }
 
-.cards .card .link .direct-link {
-    display: inline-block;
-    margin-right: 15px;
-    width: auto;
-    height: auto;
+.cards .card .link i {
     text-align: center;
-    color: #fff;
 }
