@@ -7,6 +7,16 @@
     margin-bottom: 45px;
 }
 
+.publications .title {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.publications .title h3 {
+    text-align: center;
+}
+
 .publications .image-public {
     width: 550px;
     margin-left: auto;
