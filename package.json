@@ -1,5 +1,5 @@
 {
-  "name": "personal_portfolio",
+  "name": "Personal_Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,16 @@
     "url": "git+https://github.com/Monneky/Personal_Portfolio.git"
   },
   "keywords": [],
-  "author": "Cesar Ivann Llamas Macias Macias",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Monneky/Personal_Portfolio/issues"
   },
   "homepage": "https://github.com/Monneky/Personal_Portfolio#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
+    "nodemailer": "^6.7.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
