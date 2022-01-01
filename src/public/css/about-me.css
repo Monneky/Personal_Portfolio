@@ -18,3 +18,11 @@
     font-family: 'Montserrat';
     text-align: center;
 }
+
+.about p .click-here {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #fff;
+    text-decoration: none;
+}
