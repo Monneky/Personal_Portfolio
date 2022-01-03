@@ -49,6 +49,7 @@
     font-size: 25px;
     text-align: center;
     padding: 10px;
+    margin-top: -25px;
 }
 
 .cards .card .languages {
