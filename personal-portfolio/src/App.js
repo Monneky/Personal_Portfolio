@@ -9,6 +9,8 @@ import AboutMe from './Pages/AboutMe/AboutMe';
 import Blog from './Pages/Blog/Blog';
 import Experience from './Pages/Experience/Experience';
 import Contact from './Pages/Contact/Contact';
+import FourOFour from './Pages/404/404'
+
 const App = () => {
     return(
         <BrowserRouter>
@@ -19,6 +21,7 @@ const App = () => {
                     <Route path='/blog' element={ <Blog/> } />
                     <Route path='/experience' element={ <Experience/> } />
                     <Route path='/contact' element={ <Contact/> }/>
+                    <Route path='*' element={ <FourOFour/> } />
                 </Routes>
             </div>
         </BrowserRouter>
