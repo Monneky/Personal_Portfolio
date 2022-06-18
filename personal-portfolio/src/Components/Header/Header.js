@@ -1,16 +1,11 @@
 import React from 'react';
+import App from '../../App'
+import Blog from '../../Pages/blog/blog';
 import LogoIvann from '../../assets/LogoIvann.png'
 
 function Header() {
     return (
-        <div>
-            <div className='Header'>
-                <img src={LogoIvann} alt="Ivann's Logo" className='image'/>
-                <div className='links'>
-
-                </div>
-            </div>
-        </div>
+        <h1>Hola mundo</h1>
     );
 }
 
