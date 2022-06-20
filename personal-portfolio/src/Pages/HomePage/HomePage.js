@@ -1,9 +1,12 @@
 import React from "react";
+import computerBackground from "../../assets/backgroundImage.jpeg";
 
 const HomePage = () => {
     return(
         <div>
-            <h1>Home page</h1>
+            <div>
+                <img src={computerBackground} alt="background computer"/>
+            </div>
         </div>
     );
 };
