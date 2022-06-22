@@ -11,12 +11,12 @@ import Blog from './Pages/Blog/Blog';
 import Experience from './Pages/Experience/Experience';
 import Contact from './Pages/Contact/Contact';
 import FourOFour from './Pages/404/404';
-import Navbar from "./components/NavBar/Navbar";
+import Navbar from './Components/NavBar/Navbar'
 
 const App = () => {
     return(
         <BrowserRouter>
-            <Navbar/>
+            <Navbar />
             <Routes>
                 <Route path='/' element={ <HomePage /> }/>    
                 <Route path='/about_me' element={ <AboutMe/> } />         

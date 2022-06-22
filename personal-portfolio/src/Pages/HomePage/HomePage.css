@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+div {
+    color: #fff;
+}
+
+.home-general {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.back-image {
+    width: 600px;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+div .information {
+    display: inline-block;
+    width: 650px;
+}
+
+div .information h1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+}
+
+div .information .info {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+div .information .button-about {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div .information .button-about .aboutme-button {
+    text-align: center;
+    display: block;
+    margin: 10px 0 0 5px;
+    background: #5b5b5b;
+    border: 1px solid #fffcff;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-decoration: none;
+    color:#fff;
+}
