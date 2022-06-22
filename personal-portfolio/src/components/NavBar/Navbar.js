@@ -1,31 +1,22 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react' 
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo.png'
-    
+import './NavBarStyle.css'
+
 const Navbar = () => {
     return (
-        <div>
-            <ul>
-                <li>
-                    <Link to='/' className="Link">
-                        <img src={Logo} alt='Cesar Ivann Logo'/>
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/'>Home</Link>
-                </li>
-                <li>
-                    <Link to='/blog'>Blog</Link>
-                </li>
-                <li>
-                    <Link to='/experience'>Experience</Link>
-                </li>
-                <li>
-                    <Link to='/contact'>Contact</Link>
-                </li>
-            </ul>
+        <div className='navbar-body'>
+            <Link to='/' className='image-link'>   
+                <img src={Logo} alt='Logo' className='logo-iv'/>
+            </Link>
+            <div className='links'>
+                <Link to='/' className='button home'>Home</Link>
+                <Link to='/blog' className='button blog'>Blog</Link>
+                <Link to='/Experience' className='button experience'>Experience</Link>
+                <Link to='/contact' className='button contact'>Contact</Link>
+            </div>
         </div>
     );
-};
+}
 
 export default Navbar;
