@@ -7,7 +7,6 @@ import {
     faInstagram,
     faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
-import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return(
