@@ -16,24 +16,29 @@ import {
     faCloudArrowDown
 } from '@fortawesome/free-solid-svg-icons';
 import download from '../../assets/Cesar_Ivann_Resume.pdf';
+import './aboutme.css';
 
 const AboutMe = () => {
     return(
         <div className='about-me'>
             <div className='up-part'>
-                <img src={ photo } alt='Cesar' className='photo-main'/>
-                <a href='https://twitter.com/MonekyDFuego'>
-                    <FontAwesomeIcon icon={ faTwitter } size="3x"/>
-                </a>
-                <a href='https://github.com/Monneky'>
-                    <FontAwesomeIcon icon={ faGithubAlt } size="3x"/>
-                </a>
-                <a href='https://www.instagram.com/project_ivann/'>
-                    <FontAwesomeIcon icon={ faInstagram } size="3x"/>
-                </a>
-                <a href='https://www.linkedin.com/in/cesari-llamas/'>
-                    <FontAwesomeIcon icon={ faLinkedinIn } size="3x" />
-                </a>
+                <div className='image-container'>
+                    <img src={ photo } alt='Cesar' className='photo-main'/>
+                </div>
+                <div className='social-network'>
+                    <a href='https://twitter.com/MonekyDFuego' className='link-socialNetwork'>
+                        <FontAwesomeIcon icon={ faTwitter } size="3x"/>
+                    </a>
+                    <a href='https://github.com/Monneky' className='link-socialNetwork'>
+                        <FontAwesomeIcon icon={ faGithubAlt } size="3x"/>
+                    </a>
+                    <a href='https://www.instagram.com/project_ivann/' className='link-socialNetwork'>
+                        <FontAwesomeIcon icon={ faInstagram } size="3x"/>
+                    </a>
+                    <a href='https://www.linkedin.com/in/cesari-llamas/' className='link-socialNetwork'>
+                        <FontAwesomeIcon icon={ faLinkedinIn } size="3x" />
+                    </a>
+                </div>
             </div>
             <div className='middle-part'>
                 <h2 className='title-aboutme'>About me</h2>
