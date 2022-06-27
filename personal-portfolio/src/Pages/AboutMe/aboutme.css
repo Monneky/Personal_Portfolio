@@ -30,3 +30,21 @@
     border-radius: 100%;
     color: #fff;
 }
+
+.middle-part {
+    background: #252525;
+    text-align: center;
+}
+
+.middle-part .title-aboutme {
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+}
+
+.middle-part .information {
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 1150px;
+}

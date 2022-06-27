@@ -41,7 +41,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className='middle-part'>
-                <h2 className='title-aboutme'>About me</h2>
+                <h2 className='title-aboutme'>about me</h2>
                 <p className='information'>
                     Hello, My name is Cesar Ivann Llamas, I’m currently studying the 7th grade of computer science. I study in Tec de Monterrey campus Guadalajara based in Jalisco, Mexico. I’m enthusiastic about IT, and Arts. I enjoy learning new things in the field of IT such as frameworks and I like making projects. I'm interested in the area of web, mobile and desktop development, one of my big goals is to become a full stack developer, additionally I can speak fluid English and Spanish.
                 </p>
