@@ -47,31 +47,44 @@ const AboutMe = () => {
                 </p>
             </div>
             <div className='lower-part'>
-                <div className='videogames'>
-                    <FontAwesomeIcon icon={faGamepad}/>
+                <h2 className='title-interests'>My interests</h2>
+                <div className='cards'>
+                    <div className='icon'>
+                        <FontAwesomeIcon icon={faGamepad} size="3x"/>
+                    </div>
                     <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, nisi ut sagittis pellentesque, sem nulla tristique lacus, a molestie tortor nibh sit amet erat. Suspendisse potenti. Nunc posuere, magna quis lacinia viverra, </p>
                 </div>
-                <div className='music'>
-                    <FontAwesomeIcon icon={faMusic} />
+                <div className='cards'>
+                    <div className='icon'>
+                        <FontAwesomeIcon icon={faMusic} size="3x"/>
+                    </div>
                     <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, nisi ut sagittis pellentesque, sem nulla tristique lacus, a molestie tortor nibh sit amet erat. Suspendisse potenti. Nunc posuere, magna quis lacinia viverra, </p>
                 </div>
-                <div className='coffee'>
-                    <FontAwesomeIcon icon={faMugHot} />
+                <div className='cards'>
+                    <div className='icon'>
+                        <FontAwesomeIcon icon={faMugHot} size="3x"/>
+                    </div>
                     <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, nisi ut sagittis pellentesque, sem nulla tristique lacus, a molestie tortor nibh sit amet erat. Suspendisse potenti. Nunc posuere, magna quis lacinia viverra, </p>
                 </div>
-                <div className='mobile'>
-                    <FontAwesomeIcon icon={faMobileButton} />
+                <div className='cards'>
+                    <div className='icon'>
+                        <FontAwesomeIcon icon={faMobileButton} size="3x"/>
+                    </div>
                     <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, nisi ut sagittis pellentesque, sem nulla tristique lacus, a molestie tortor nibh sit amet erat. Suspendisse potenti. Nunc posuere, magna quis lacinia viverra, </p>
                 </div>
-                <div className='desktop-computer'>
-                    <FontAwesomeIcon icon={faDesktop}/>
+                <div className='cards'>
+                    <div className='icon'>
+                        <FontAwesomeIcon icon={faDesktop} size="3x"/>
+                    </div>
                     <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor, nisi ut sagittis pellentesque, sem nulla tristique lacus, a molestie tortor nibh sit amet erat. Suspendisse potenti. Nunc posuere, magna quis lacinia viverra, </p>
                 </div>
-                <a href={download} download="Cesar Ivann CV">
-                    Download CV
-                    <FontAwesomeIcon icon={faCloudArrowDown} />
-                </a>
-            </div>
+                <div className='downloadButton'>
+                    <a href={download} download="Cesar Ivann CV" className='button'>
+                        Download CV
+                        <FontAwesomeIcon icon={faCloudArrowDown} size="2x"/>
+                    </a>
+                </div>
+            </div>           
         </div>
     );
 };
