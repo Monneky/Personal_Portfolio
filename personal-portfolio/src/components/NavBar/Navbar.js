@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo.png'
 import './NavBarStyle.css'
 
-const Navbar = () => {
+const NavBar = () => {
     return (
         <div className='navbar-body'>
             <div className='image-link-div'>
@@ -21,4 +21,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default NavBar;
