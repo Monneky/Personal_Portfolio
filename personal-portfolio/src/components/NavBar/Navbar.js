@@ -6,9 +6,11 @@ import './NavBarStyle.css'
 const Navbar = () => {
     return (
         <div className='navbar-body'>
-            <Link to='/' className='image-link'>   
-                <img src={Logo} alt='Logo' className='logo-iv'/>
-            </Link>
+            <div className='image-link-div'>
+               <Link to='/' className='image-link'>   
+                    <img src={Logo} alt='Logo' className='logo-iv'/>
+                </Link>
+            </div>
             <div className='links'>
                 <Link to='/' className='button home'>Home</Link>
                 <Link to='/blog' className='button blog'>Blog</Link>
