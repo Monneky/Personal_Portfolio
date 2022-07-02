@@ -1,0 +1,12 @@
+.blog-body .big-box {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-body .box-modeling-blog {
+    display: inline-block;
+    width: 400px;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 60px;
+}
