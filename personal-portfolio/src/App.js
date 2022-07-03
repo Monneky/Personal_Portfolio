@@ -12,6 +12,8 @@ import Experience from './Pages/Experience/Experience';
 import Contact from './Pages/Contact/Contact';
 import FourOFour from './Pages/404/404';
 import NavBar from './components/NavBar/Navbar'
+import ExampleBlog from "./Pages/BlogPages/ExampleBlog/ExampleBlog";
+
 
 const App = () => {
     return(
@@ -24,6 +26,8 @@ const App = () => {
                 <Route path='/experience' element={ <Experience/> } />
                 <Route path='/contact' element={ <Contact/> }/>
                 <Route path='*' element={ <FourOFour/> } />
+                { /*Here start the routing of blog section, we start with a simple plage only to put an example */ }
+                <Route path='/ExampleBlog'  element={ <ExampleBlog/> } />
             </Routes>
         </BrowserRouter>
     );
